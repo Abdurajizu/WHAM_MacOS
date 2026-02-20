@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+
+# WHAM large/generated assets
+checkpoints/
+dataset/
+output/
+third-party/
+
+# Optional local downloads
+*.zip
+*.pth
+*.pth.tar
+*.pkl
+
+# Model weights
+*.pt
